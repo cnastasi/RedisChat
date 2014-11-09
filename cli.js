@@ -16,7 +16,7 @@ exports.read = function(text, callback) {
   rl.once('line', function(line) {
     callback(line.trim());
   });
+
   rl.prompt();
   process.stdout.write(text);
-  //console.log(text);
 };
