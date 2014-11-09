@@ -1,0 +1,24 @@
+{
+  "name": "RedisChat",
+  "version": "0.5.0",
+  "description": "A simple chat written in nodejs for testing redis pub/sub",
+  "main": "index.js",
+  "dependencies": {
+    "node-redis-pubsub": "^0.2.1",
+    "prompt": "^0.2.14",
+    "readline": "^0.0.5",
+    "redis": "^0.12.1",
+    "spade": "^0.49.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS",
+    "Redis",
+    "Chat"
+  ],
+  "author": "Christian Nastasi",
+  "license": "ISC"
+}
