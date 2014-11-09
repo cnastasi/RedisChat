@@ -4,11 +4,8 @@
   "description": "A simple chat written in nodejs for testing redis pub/sub",
   "main": "index.js",
   "dependencies": {
-    "node-redis-pubsub": "^0.2.1",
-    "prompt": "^0.2.14",
     "readline": "^0.0.5",
-    "redis": "^0.12.1",
-    "spade": "^0.49.5"
+    "redis": "^0.12.1"
   },
   "devDependencies": {},
   "scripts": {
