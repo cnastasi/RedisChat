@@ -9,7 +9,7 @@ You need Redis installed locally with standard configuration
 
 ```sh
 $ git clone [git-repo-url] RedisChat
-$ cd RedusChat
+$ cd RedisChat
 $ npm install
 $ node index.js
 ```
